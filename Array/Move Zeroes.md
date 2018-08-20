@@ -32,10 +32,12 @@ class Solution {
     }
 }
 
-public void moveZeroes(int[] nums) {
-    int low = 0;
-    for (int num : nums) if (num != 0) nums[low++] = num;  
-    while (low < nums.length) nums[low++] = 0;
-    return;
+class Solution {
+  public void moveZeroes(int[] nums) {
+      int low = 0;
+      for (int num : nums) if (num != 0) nums[low++] = num;  
+      while (low < nums.length) nums[low++] = 0;
+      return;
+  }
 }
 ```
