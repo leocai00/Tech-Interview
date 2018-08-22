@@ -45,8 +45,8 @@ class Solution {
             }
             window.offer(i);
             if (i >= k - 1) {
-				        result[ri++] = nums[window.peek()];
-			      }
+				      result[ri++] = nums[window.peek()];
+            }
         }
         return result;
     }
