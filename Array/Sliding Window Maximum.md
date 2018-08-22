@@ -27,7 +27,7 @@ Follow up:
 ## Solution
 
 ```java
-# 
+#
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || k <= 0) {
@@ -45,8 +45,8 @@ class Solution {
             }
             window.offer(i);
             if (i >= k - 1) {
-				result[ri++] = nums[window.peek()];
-			}
+				          result[ri++] = nums[window.peek()];
+			      }
         }
         return result;
     }
